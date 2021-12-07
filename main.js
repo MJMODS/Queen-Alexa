@@ -46,7 +46,7 @@ const starts = async (hyper = new WAConnection()) => {
   
     hyper.logger.level = 'warn'
     hyper.version = [2, 2143, 3] 
-    hyper.browserDescription = ["Queen Alexa", "Safari", "3.0"];
+    hyper.browserDescription = ["MIDLAJ", "Safari", "3.0"];
 
     hyper.on('qr', () => {
         console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan the qr, bro, make WhatsApp 👍 '))
